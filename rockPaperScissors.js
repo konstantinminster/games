@@ -1,15 +1,8 @@
 const args = process.argv.slice(2);
 const options = ["Rock", "Paper", "Scissors"]
 
-// console.log("Es wurde gefunden: " + found);
-
-
-
 const userPick = args;
 const compPick = options[Math.floor(Math.random() * options.length)];
-
-// console.log("You chose " + args);
-// console.log("Computer chose " + compPick);
 
 // Möglich kombinationen
 // Rock / Paper = Paper wins
@@ -33,7 +26,6 @@ if (userPick == compPick) {
 } else {
     console.log("Something went wrong");
 }
-
 
 
 // check if user pick something from the array
